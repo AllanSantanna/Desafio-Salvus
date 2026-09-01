@@ -6,6 +6,10 @@ Uma aplicação web pequena e completa para gerenciamento do fluxo de autentica�
 
 ---
 
+🎥 Demonstração
+
+![alt text](salvus.gif)
+
 ## 🚀 Funcionalidades
 
 | Funcionalidade           | Status |
