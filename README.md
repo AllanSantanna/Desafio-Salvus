@@ -335,7 +335,16 @@ Antes de executar o projeto, tenha instalado:
 
 ---
 
-## 1. Backend
+## 1. Clonar o repositório
+
+```bash
+git clone https://github.com/AllanSantanna/Desafio-Salvus.git
+cd Desafio-Salvus
+```
+
+---
+
+## 2. Backend
 
 Entre na pasta:
 
@@ -350,6 +359,13 @@ npm install
 ```
 
 Configure o arquivo `.env` utilizando o `.env.example` como referência.
+
+### Variáveis de ambiente
+
+| Variável | Descrição |
+| --- | --- |
+| `DATABASE_URL` | URL de conexão com o banco PostgreSQL |
+| `JWT_SECRET` | Chave secreta utilizada para assinar os tokens JWT |
 
 Exemplo:
 
@@ -378,7 +394,7 @@ http://localhost:3000
 
 ---
 
-## 2. Frontend
+## 3. Frontend
 
 Em outro terminal:
 
